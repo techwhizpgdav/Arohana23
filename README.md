@@ -64,4 +64,4 @@ Follow us for the latest updates, events, and cultural highlights. We look forwa
 
 Feel free to reach out to us on these platforms for any inquiries or collaboration opportunities.
 
-<img src="https://pgdavhyperion.in/logos/PGDAVLogo.png" alt="Logo1" width="200" height="70"> <img src="https://pgdavhyperion.in/logos/HyperionLogo.jpeg" alt="Hyperion Logo" width="100" height="70"> <img src="https://pgdavhyperion.in/logos/techwhizlogo2.jpeg" alt="Logo3" width="100" height="70">
+<div style="margin:0 auto;"><img src="https://pgdavhyperion.in/logos/PGDAVLogo.png" alt="Logo1" width="200" height="70"> <img src="https://pgdavhyperion.in/logos/HyperionLogo.jpeg" alt="Hyperion Logo" width="100" height="70"> <img src="https://pgdavhyperion.in/logos/techwhizlogo2.jpeg" alt="Logo3" width="100" height="70"></div>
