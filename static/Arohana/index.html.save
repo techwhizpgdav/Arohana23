@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="icon" href="assets/HyperionLogo.jpeg" type="image/x-icon"><link rel="icon" href="assets/HyperionLogo.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="relative">
+
+    <!-- ======================================================================================================
+
+                  Code for Navigation-Bar 
+
+    ======================================================================================================== -->
+    <section class="nav-elements ">
+        <img src="./assets/images/Arohana poster (Instagram Post (Portrait)).png" alt="AAROHNA" class="AAROHNA-logo">
+        <nav class="nav-bar">
+            <ul class="nav-unod-list">
+
+                <li class="nav-list"><a href="index.html" class="nav-link"> Home </a></li>
+                <li class="nav-list"><a href="./competitions.html" class="nav-link"> Events </a></li>
+                <li class="nav-list"><a href="./timeline.html" class="nav-link"> Timeline </a></li>
+                <li class="nav-list"><a href="#FAQ" class="nav-link"> FAQs </a></li>
+                <li class="nav-list"><a href="./contact.html" class="nav-link" target="_blank"> Contacts </a></li>
+            </ul>
+        </nav>
+
+
+        <div class="hamburger">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </section>
+
+
+
+
+    <!-- ====================================================================================
+    
+    HYML Code for About Section
+
+    ==================================================================================-->
+
+
+    <section class="about-section h-[32.5rem]">
+
+        <div class="about">
+            <!-- <img src="./assets/images/Arohana poster (Instagram Post (Portrait)).png" style="width: 400px;" alt="">
+         -->
+            <div class="main uppercase w-[34rem] py-8 font-semibold flex -space-y-4 mb-20 flex-col">
+                <h1 class="">t h e</h1>
+                <h1 class="">a n n u a l</h1>
+                <h1 class="">c u l t u r a l</h1>
+                <h1 class=""> f e s t</h1>
+            </div>
+        </div>
+        <!-- 
+        <div class="lottie">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_dyaklis1.json"  background="transparent"  speed="1"  style="width: 1000px;"  loop  autoplay></lottie-player>
+        </div>   -->
+
+    </section>
+    <div class="m-8 text-md md:text-xl font-['Crimson_Text'] border-2 rounded-lg">
+        <p class="m-8 text-center text-[#f5deb3]">
+            "Ārohaṇa: The Annual Cultural Fest of P.G.D.A.V. College, University of Delhi" is one of the most eagerly
+            awaited cultural events in the college's calendar. The two-day-long fest takes place every year and is a
+            celebration of the rich cultural heritage and diversity of the students. The event is organised by the
+            students
+            themselves, with the guidance of the college faculty.
+
+            Ārohaṇa offers a platform for students to showcase their talents in fields such as music, dance, drama,
+            literature, and fine arts. The fest is a perfect blend of traditional and contemporary elements, which
+            reflect
+            the unique cultural identities of the students. The festival opens with a grand procession, which is
+            followed by
+            a series of competitions and performances, including solo and group performances in various categories.
+
+            The cultural fest also features exhibitions, food stalls, and games, which add to the overall experience of
+            the
+            students. The event provides an opportunity for students to connect with each other and build new
+            relationships,
+            fostering a sense of community and belonging.
+
+            In conclusion, Ārohaṇa is not just a cultural festival but a celebration of the spirit of youth and the rich
+            cultural diversity of P.G.D.A.V. College. It is a much-anticipated event that brings together students from
+            different backgrounds to participate in a common celebration of arts and culture.
+        </p>
+    </div>
+
+
+    <!-- 
+    HTML code for FAQ section
+    
+    style of faq section is in style.css and
+    javascript of faq section is in faq.js file
+ -->
+    <div class="faqs" id="FAQ">
+        <p class="faq-heading"> FAQ's</p>
+
+        <section class="accordion" id="faq-section" >
+            <div class="accordion-content">
+                <header>
+                    <span class="title">What is Aarohna?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+        
+                <p class="description">
+                    Aarohna is the Annual Cultural Fest of PGDAV College, University of Delhi.
+                </p>
+            </div>
+        
+            <div class="accordion-content">
+                <header>
+                    <span class="title">Where can i get link to participate online?</span>
+                    <i class="fa-regular fa-plus"></i>
+                </header>
+        
+                <p class="description">
+                    Browse to the events of your choice in the Event Section
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">Is there any registration fees for participation?</span>
+                    <i class="fa-regular fa-plus"></i>
+                </header>
+        
+                <p class="description">
+                    No!
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">How I will receive my Certificate(s) and Prizes (if any)?</span>
+                    <i class="fa-regular fa-plus"></i>
+                </header>
+        
+                <p class="description">
+                    The respective winners will be asked for their account details for transferring the amount to ensure feasibility.
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- ====================================================================================
+    
+            HYML Code for Footer Section
+
+         ==================================================================================-->
+    <footer class="footer-section">
+        <div class="footer-row">
+            <div class="footer-column">
+                <h3 class="quick-links">QUICK LINKS <div class="underline"><span></span></div>
+                </h3>
+                <ul class="footer-unod-list">
+
+                    <li><a href="https://m.facebook.com/100066564831720/" class="footer-links">FACEBOOK</a></li>
+                    <li><a href="https://instagram.com/hyperion_pgdav?igshid=NTdlMDg3MTY=" class="footer-links">INSTAGRAM</a></li>
+                    <li><a href="https://pgdavhyperion.in/" class="footer-links">HYPERION PGDAV</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <div class="address">
+                    <img src="./assets/PGDAVLogo.png" alt=" PGDAV LOGO" class="footer-pgdav-logo">
+                    <address>
+                        Ring Road,
+                        Nehru Nagar,
+                        New Delhi - 110065</br>
+                        <span style="font-weight: 500;">Telephone:</span> 29832092</br>
+                        <span style="font-weight: 500;">Email:</span> pgdavcollege.edu@gmail.com
+                    </address>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <ul class="footer-column3">
+                    <li class="list3">&copy; Hyperion P.G.D.A.V. 2022</li>
+                    <li class="list3">Created By</li>
+                    <li class="list3">Website Development Team</li>
+                    <li class="list3">TechWhiz - IT Society</li>
+                </ul>
+                <div class="footer-techwhiz-logo">
+                    <a href="http://pgdavcollege.edu.in/hyperion/techwhiz.html">
+                        <img src="./assets/images/techwhizlogo2.jpeg" alt="TechWhiz Logo" style="width: 6rem;">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Java Script file for function -->
+    <script src="./Javascript/index.js"></script>
+    <br>
+    <script src="./Javascript/faq.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="icon" href="assets/HyperionLogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/competitions.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="relative">
+
+    <section class="nav-elements ">
+        <img src="./assets/images/Arohana poster (Instagram Post (Portrait)).png" alt="AAROHNA" class="AAROHNA-logo">
+
+        <nav class="nav-bar">
+            <ul class="nav-unod-list">
+
+                <li class="nav-list"><a href="index.html" class="nav-link"> Home </a></li>
+                <li class="nav-list"><a href="./competitions.html" class="nav-link"> Events </a></li>
+                <li class="nav-list"><a href="timeline.html" class="nav-link"> Timeline</a></li>
+                <li class="nav-list"><a href="./index.html#FAQ" class="nav-link"> FAQs </a></li>
+                <li class="nav-list"><a href="contact.html" class="nav-link"> Contacts </a></li>
+            </ul>
+        </nav>
+
+
+        <div class="hamburger">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </section>
+
+    <section id="competitions" class="p-6">
+        <h1 class="block uppercase md:tracking-[0.75rem]">competitions</h1>
+        <div class="flex flex-wrap flex-row items-center justify-around space-y-8">
+            <div class="tilt-box-wrap mt-9" onclick="javascript:clickinner(this.id)" id="dance">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/competitions/dance_n.jpeg);">
+                    <strong class="text">dance</strong>
+                </div>
+            </div>
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="dramatics">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/competitions/drama.jpg);color: black;">
+                    <strong class="text">dramatics</strong>
+                </div>
+            </div>
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="fine_arts">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/images/images.jpeg);">
+                    <strong class="text">fine arts</strong>
+                </div>
+            </div>
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="intellectual">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box"
+                    style="background-image: url(./assets/Practice-IntellectualProperty1920x1080.jpg);">
+                    <strong class="text">intellectual</strong>
+                </div>
+            </div>
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="music">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/images/singer.png);">
+                    <strong class="text">Singing</strong>
+                    <!-- <img src="./assets/competitions/dance.png" alt=""> -->
+                </div>
+            </div>
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="photography">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/images/phototography.jpeg);">
+                    <strong class="text">photography</strong>
+                </div>
+            </div>
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="technical">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/images/tech.jpg);">
+                    <strong class="text">technical</strong>
+                </div>
+            </div>
+
+            <div class="tilt-box-wrap" onclick="javascript:clickinner(this.id)" id="fun">
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <span class="t_over"></span>
+                <div class="tilt-box" style="background-image: url(./assets/images/fun.jpg);">
+                    <strong class="text">fun</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ====================================================================================
+    
+            HYML Code for Footer Section
+
+         ==================================================================================-->
+    <footer class="footer-section">
+        <div class="footer-row">
+            <div class="footer-column">
+                <h3 class="quick-links">QUICK LINKS <div class="underline"><span></span></div>
+                </h3>
+                <ul class="footer-unod-list">
+
+                    <li><a href="https://m.facebook.com/100066564831720/" class="footer-links">FACEBOOK</a></li>
+                    <li><a href="https://instagram.com/hyperion_pgdav?igshid=NTdlMDg3MTY=" class="footer-links">INSTAGRAM</a></li>
+                    <li><a href="https://pgdavhyperion.in/" class="footer-links">HYPERION PGDAV</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <div class="address">
+                    <img src="assets/PGDAVLogo.png" alt=" PGDAV LOGO" class="footer-pgdav-logo">
+                    <address>
+                        Ring Road,
+                        Nehru Nagar,
+                        New Delhi - 110065</br>
+                        <span style="font-weight: 500;">Telephone:</span> 29832092</br>
+                        <span style="font-weight: 500;">Email:</span> pgdavcollege.edu@gmail.com
+                    </address>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <ul class="footer-column3">
+                    <li class="list3">&copy; Hyperion P.G.D.A.V. 2022</li>
+                    <li class="list3">Created By</li>
+                    <li class="list3">Website Development Team</li>
+                    <li class="list3">TechWhiz - IT Society</li>
+                </ul>
+                <div class="footer-techwhiz-logo">
+                    <a href="http://pgdavcollege.edu.in/hyperion/techwhiz.html">
+                        <img src="assets/images/techwhizlogo2.jpeg" alt="TechWhiz Logo" style="width: 6rem;">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Java Script file for function -->
+    <script src="Javascript/index.js"></script>
+    <script src="Javascript/competitions.js"></script>
+</body>
+
+</html>
