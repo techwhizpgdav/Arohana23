@@ -1,7 +1,7 @@
 {
   "name": "arohana",
   "version": "1.0.0",
-  "description": "Website for the Annual Cultural Fest, 2023, of PGDAV College.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start" : "node index.js",
